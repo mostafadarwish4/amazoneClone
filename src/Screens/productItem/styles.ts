@@ -1,0 +1,59 @@
+import{StyleSheet} from 'react-native';
+
+ export default StyleSheet.create({
+    root:{
+        //flex:1,
+        flexDirection:'row',
+        justifyContent:'space-between',
+        margin:5,
+        borderWidth:1,
+        borderRadius:10,
+        borderColor:"#d1d1d1",
+        backgroundColor:"#fff"
+
+    },
+    root2:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        marginHorizontal:5,
+        borderWidth:1,
+        borderRadius:10,
+        borderColor:"#d1d1d1",
+        backgroundColor:"#fff"
+    },
+    image:{       
+        height:150,
+        flex:2,
+        marginHorizontal:2,
+        resizeMode:"contain",
+        borderRadius:2
+    },
+    rightContainer:{
+        flex:3,
+        padding:5,
+
+    },
+    title:{
+        fontSize:18,
+        color:'#3f6c91',
+        marginBottom:5,
+    },
+    price:{
+        fontSize:18,
+        color:'black',
+        fontWeight:'bold'
+    },
+    oldPrice:{
+        fontSize:10,
+        textDecorationLine:"line-through"
+    },
+    ratingContainer:{
+        flexDirection:'row',
+        marginVertical:2,
+    },
+    ratings:{
+        fontSize:15,
+        marginLeft:5,
+        color:"black"
+    }
+})
